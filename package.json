@@ -1,0 +1,33 @@
+{
+  "name": "srfn-example-app",
+  "version": "0.0.1",
+  "description": "A SRFNStack App",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createUser": "node createUser.js",
+    "start": "docker-compose up -d && node start.js"
+  },
+  "keywords": [],
+  "author": "your mom",
+  "license": "MIT",
+  "dependencies": {
+    
+    "redis": "3.1.2",
+    "@srfnstack/redish": "0.2.5",
+    "jsonwebtoken": "8.5.1",
+    "passport": "0.4.1",
+    "passport-jwt": "4.0.0",
+    "sendmail": "1.6.1",
+    "uuid": "8.3.2",
+    "mjml": "4.10.4",
+    
+    "dotenv": "10.0.0",
+    "helmet": "4.6.0",
+    "@srfnstack/spliffy": "0.6.1",
+    "@srfnstack/fntags": "0.1.7"
+  },
+  "devDependencies": {
+    "enquirer": "2.3.6"
+  }
+}

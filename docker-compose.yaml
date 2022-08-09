@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  ardb:
+    image: lupino/ardb-server
+    ports:
+      - "16379:16379"
+    env_file:
+      - ./srfn-example-app.env
